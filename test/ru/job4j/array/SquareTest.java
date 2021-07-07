@@ -21,3 +21,4 @@ public class SquareTest {
         Assert.assertArrayEquals(expected, result);
     }
 }
+/*перепуш из за ошибки связи*/
