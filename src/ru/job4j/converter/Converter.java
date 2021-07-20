@@ -1,7 +1,6 @@
 package ru.job4j.converter;
 
 public class Converter {
-
     public static float rubleToEuro(float value) {
         return value / 70;
     }
@@ -21,6 +20,5 @@ public class Converter {
         boolean passed1 = expected1 == out1;
         System.out.println("140 rubles are 2 euro. Test result : " + passed);
         System.out.println("120 rubles are 2 dollar. Test result : " + passed1);
-
     }
 }
